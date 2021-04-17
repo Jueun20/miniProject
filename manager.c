@@ -49,7 +49,7 @@ int loadData(Product *p){
 		}
 		fclose(fp);
 		printf("\n");
-		printf("=> 로딩 성공!");
+		printf("=> 파일 데이터 불러오기 성공!");
 		printf("\n");
 	}
 	return i;
