@@ -20,7 +20,7 @@ int main(){
 		if (menu == 0)	break;
 		if (menu == 1){
 			if (count != 0)	listProduct(plist, index);
-			else		printf("조회할 데이터가 존재하지 않습니다.\n");
+			else		printf("데이터가 존재하지 않습니다.\n");
 		}
 		else if (menu == 2){
 			if (addProduct(&plist[index ++])){
@@ -34,7 +34,7 @@ int main(){
 				if (num != 0)	updateProduct(&plist[num - 1]);
 				else		printf("=> 취소됨!\n");
 			}
-			else	printf("수정할 데이터가 존재하지 않습니다.\n");
+			else	printf("데이터가 존재하지 않습니다.\n");
 		}
 		else if (menu == 4){
 			if (count != 0){
@@ -54,7 +54,7 @@ int main(){
 					continue;
 				}	
 			}
-			else	printf("삭제할 데이터가 존재하지 않습니다.\n");
+			else	printf("데이터가 존재하지 않습니다.\n");
 		}
 		else if (menu == 5)	saveData(plist, index);
 		else if (menu == 6)	searchName(plist, index);
