@@ -146,5 +146,5 @@ void searchPrice(Product *p, int count){
 		}
 	}
 	if (scnt == 0)
-		printf("=> 검색된 데이터 없음!\n");
+		printf("=> 검색한 가격의 데이터 없음!\n");
 }
