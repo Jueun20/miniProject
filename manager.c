@@ -86,7 +86,7 @@ void saveData(Product *p, int count){
 			fprintf(fp, "%s %d %d %f\n", p[i].name, p[i].weight, p[i].price, p[i].star);
 	}
 	fclose(fp);
-	printf("=> 저장됨!\n");
+	printf("=> 저장됨!(파일명: product.txt)\n");
 }
 
 void searchName(Product *p, int count){
